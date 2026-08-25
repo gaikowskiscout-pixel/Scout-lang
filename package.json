@@ -1,0 +1,30 @@
+{
+  "name": "scout-lang",
+  "version": "1.0.0",
+  "description": "A programming language built from scratch.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaikowskiscout-pixel/Scout-lang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaikowskiscout-pixel/Scout-lang/issues"
+  },
+  "homepage": "https://github.com/gaikowskiscout-pixel/Scout-lang#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
