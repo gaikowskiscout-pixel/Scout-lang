@@ -1,3 +1,10 @@
+import { Scanner } from "./scanner"
+
+const scanner = new Scanner("/ // hello\n/");
+const tokens = scanner.scanTokens();
+
+console.log(tokens)
+
 export class Scout {
     private hadError = false;
     run(source: string): void {
