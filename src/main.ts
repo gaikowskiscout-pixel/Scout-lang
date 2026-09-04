@@ -1,4 +1,4 @@
-import {Scout} from "./scout";
+import {Scout} from "./ScoutScript";
 
 const scout = new Scout();
 
